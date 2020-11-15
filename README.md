@@ -2,7 +2,7 @@
 
 ## Web Framework - GemWeb
 
-[Gee](https://geektutu.com/post/gee.html) is a [gin](https://github.com/gin-gonic/gin)-like framework
+[Gem] is a [gin](https://github.com/gin-gonic/gin)-like framework
 
 - http.Handler Interface Basic [Code](gee-web/day1-http-base)
 - Design a Flexiable Context [Code](gee-web/day2-context)
@@ -14,7 +14,7 @@
 
 ## Distributed Cache - GemCache
 
-[GeeCache](https://geektutu.com/post/geecache.html) is a [groupcache](https://github.com/golang/groupcache)-like distributed cache
+[GemCache] is a [groupcache](https://github.com/golang/groupcache)-like distributed cache
 
 - LRU (Least Recently Used) Caching Strategy [Code](gee-cache/day1-lru)
 - Single Machine Concurrent Cache [Code](gee-cache/day2-single-node)
@@ -26,7 +26,7 @@
 
 ## Object Relational Mapping - GemORM
 
-[GeeORM](https://geektutu.com/post/geeorm.html) is a [gorm](https://github.com/jinzhu/gorm)-like and [xorm](https://github.com/go-xorm/xorm)-like object relational mapping library
+[GemORM] is a [gorm](https://github.com/jinzhu/gorm)-like and [xorm](https://github.com/go-xorm/xorm)-like object relational mapping library
 
 Xorm's desgin is easier to understand than gorm-v1, so the main designs references xorm and some detailed implementions references gorm-v1.
 
@@ -40,7 +40,7 @@ Xorm's desgin is easier to understand than gorm-v1, so the main designs referenc
 
 ## RPC Framework - GemRPC
 
-[GeeRPC](https://geektutu.com/post/geerpc.html) is a [net/rpc](https://github.com/golang/go/tree/master/src/net/rpc)-like RPC framework
+[GemRPC] is a [net/rpc](https://github.com/golang/go/tree/master/src/net/rpc)-like RPC framework
 
 Based on golang standard library `net/rpc`, GeeRPC implements more features. eg, protocol exchange, service registration and discovery, load balance, etc.
 
